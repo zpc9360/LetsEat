@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+  jpa:
+    database:
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+  jackson:
+    default-property-inclusion: non_null
+server:
+  servlet:
+    context-path: /letseat
+wechat:
+  mpAppID: wxd2e24***********
+  mpAppSecret: b80080d7***********
+  templateId:
+   orderStatus: lbnlSYBmcob9qCm**********************
