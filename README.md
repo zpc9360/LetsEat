@@ -6,8 +6,11 @@ LetsEat外卖点餐小程序，是以Spring Boot和微信特性为核心技术�
 #### 软件架构
 
 开发环境：Windows 10 + IntelliJ IDEA 2018.2 + Maven 3.5.4+ JDK1.8
+
 项目框架：Spring Boot + Spring-data-jpa
+
 平台：Web / 微信测试号
+
 数据库：MySQL 8.0
 
 
